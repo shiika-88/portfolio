@@ -1,0 +1,54 @@
+/* 全体のフォントと背景 */
+body {
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  background-color: #fdfcf8;
+  color: #333;
+  line-height: 1.8;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* 見出し */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  color: #6c4d3c;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2em;
+  color: #8b5e3c;
+  border-bottom: 1px solid #d8cbb5;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+  color: #a1704f;
+}
+
+/* セクションの余白 */
+section {
+  margin-bottom: 3em;
+}
+
+/* お客さんの声を少し目立たせる */
+.review {
+  background-color: #fffdf8;
+  border-left: 4px solid #c7a17a;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
