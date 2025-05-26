@@ -1,7 +1,7 @@
 /* 全体のフォントと背景 */
 body {
-  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
-  background-color: #fdfcf8;
+  font-family: 'Kiwi Maru', 'Noto Sans JP', sans-serif;
+  background-color: #fdf8f3;
   color: #333;
   line-height: 1.8;
   padding: 20px;
@@ -17,17 +17,20 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-top: 2em;
+  font-size: 1.6rem;
   color: #8b5e3c;
-  border-bottom: 1px solid #d8cbb5;
-  padding-bottom: 0.3em;
+  border-left: 4px solid #c7a17a;
+  padding-left: 12px;
+  margin-bottom: 1em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.2rem;
-  margin-top: 1.5em;
   color: #a1704f;
+  margin-bottom: 0.5em;
+  border-bottom: 1px dashed #e0d8c8;
+  padding-bottom: 0.3em;
 }
 
 /* セクションの余白 */
@@ -84,4 +87,23 @@ h2 {
   padding: 16px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6e5a44;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #faf4ec;
+  border-top: 1px solid #e0d8c8;
+}
+
+.site-footer a {
+  color: #a1704f;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
