@@ -1,6 +1,6 @@
 /* 全体のフォントと背景 */
 body {
-  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
   background-color: #fdfcf8;
   color: #333;
   line-height: 1.8;
@@ -73,4 +73,15 @@ h2 {
   color: #8b5e3c;
   border-left: 4px solid #c7a17a;
   padding-left: 12px;
+}
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  background-color: #fffaf5;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
