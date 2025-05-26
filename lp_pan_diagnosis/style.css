@@ -1,0 +1,36 @@
+body {
+  font-family: 'Kiwi Maru', sans-serif;
+  text-align: center;
+  background-color: #fffdf7;
+  padding: 50px;
+  color: #4b3e30;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #f4d9ae;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ebc88a;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  padding: 20px;
+  background-color: #fef5e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
