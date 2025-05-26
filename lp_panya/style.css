@@ -1,7 +1,7 @@
 /* 全体のフォントと背景 */
 body {
   font-family: 'Kiwi Maru', 'Noto Sans JP', sans-serif;
-  background-color: #fdf8f3;
+  background-color: #f1edeb;
   color: #333;
   line-height: 1.8;
   padding: 20px;
@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 2rem;
   margin-bottom: 0.5em;
-  color: #6c4d3c;
+  color: #7e5d4d;
 }
 
 h2 {
