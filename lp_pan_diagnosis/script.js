@@ -1,7 +1,7 @@
 const resultEl = document.getElementById("result");
 const btn = document.getElementById("diagnoseBtn");
 
-const breads = [気持ちがちょっと軽
+const breads = [
   {
     name: "さくさくバタークロワッサン",
     message: "朝にひとつあるだけで、なんだか今日はうまくいきそう。さくっと気持ちに火をつけてくれるパン"
