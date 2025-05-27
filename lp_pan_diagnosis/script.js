@@ -17,7 +17,7 @@ const breads = [
   {
     name: "とろけるクリームパン",
     message: "甘さがやさしく満たしてくれる、癒し系パン。ほっとしたいときのおともにどうぞ。"
-  }
+  },
 ];
 
 btn.addEventListener("click", () => {
