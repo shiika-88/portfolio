@@ -72,6 +72,6 @@ section {
 header img {
   width: 100%;
   height: auto;
-  max-height: 270px; /* 高さを抑えめに */
+  max-height: 300px; /* 高さを抑えめに */
   object-fit: cover; /* 必要なら端をトリミング */
 }
