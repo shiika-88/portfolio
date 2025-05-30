@@ -68,3 +68,10 @@ section {
   background-color: #faf4ec;
   border-top: 1px solid #e0d8c8;
 }
+
+header img {
+  width: 100%;
+  height: auto;
+  max-height: 250px; /* 高さを抑えめに */
+  object-fit: cover; /* 必要なら端をトリミング */
+}
