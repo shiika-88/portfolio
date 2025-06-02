@@ -35,6 +35,9 @@ h3 {
 #concept p {
   font-size: 1.05rem; /* ←必要に応じて調整してね */
   line-height: 1.8;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* 各セクション下の余白 */
@@ -79,7 +82,7 @@ section {
 header img {
   width: 100%;
   height: auto;
-  max-height: 450px;
+  max-height: 500px;
   object-fit: cover;
 }
 
