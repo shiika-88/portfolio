@@ -3,7 +3,7 @@ body {
   background-color: rgb(231, 231, 231);
   color: hsl(21, 24%, 37%);
   line-height: 1.5;
-  padding: 20px;
+  padding: 24px;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -105,3 +105,5 @@ h1{
   margin-bottom: 1em;
   font-style: italic;
 }
+
+
