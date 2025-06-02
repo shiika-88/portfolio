@@ -1,22 +1,23 @@
-body{
-font-family: 'Noto Serif JP', serif;
-background-color: rgb(231, 231, 231);
-color: rgb(60, 60, 60);
-line-height: 150%;
-padding: 20px;
-max-width: 700px;
-margin: 0 auto;
+body {
+  font-family: 'Noto Serif JP', serif;
+  background-color: rgb(231, 231, 231);
+  color: hsl(21, 24%, 37%);
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1em;
-  color: #706a67;
 }
 
 h2 {
   font-size: 1.6rem;
-  color: #86796e;
+  margin-top: 1em;        /* ← 新しく追加 */
+  line-height: 1.8;       /* ← 行間をゆったりさせる */
+  color: hsl(21, 24%, 37%);
   border-left: 4px solid #c7a17a;
   padding-left: 12px;
   margin-bottom: 1em;
@@ -24,18 +25,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
-  color: #9f928a;
+  font-size: 2rem;
   margin-bottom: 1em;
   border-bottom: 2px dashed #ffffff;
   padding-bottom: 0.5em;
-  
 }
 
+/* headerセクションの説明文 */
+#concept p {
+  font-size: 1.05rem; /* ←必要に応じて調整してね */
+  line-height: 1.8;
+}
+
+/* 各セクション下の余白 */
 section {
   margin-bottom: 3em;
 }
-
 
 .product-card {
   display: flex;
@@ -45,18 +50,20 @@ section {
   background-color: #ffffff;
   padding: 16px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.product-card h3, .product-card p{
-    word-break: break-word;
-    overflow-wrap: break-word;
+.product-card h3,
+.product-card p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-size: 1rem;
 }
 
-.price{
-    font-size: 0.9rem;
-    color: #999;
-    margin-left: 1rem;
+.price {
+  font-size: 0.9rem;
+  color: #9d7566;
+  margin-left: 1rem;
 }
 
 .site-footer {
@@ -72,6 +79,25 @@ section {
 header img {
   width: 100%;
   height: auto;
-  max-height: 450px; /* 高さを抑えめに */
-  object-fit: cover; /* 必要なら端をトリミング */
+  max-height: 450px;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 0;
+}
+
+.tagline{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #997e6b;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
 }
