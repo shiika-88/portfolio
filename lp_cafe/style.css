@@ -33,7 +33,7 @@ h3 {
 
 /* headerセクションの説明文 */
 #concept p {
-  font-size: 1.05rem; /* ←必要に応じて調整してね */
+  font-size: 1.2rem; /* ←必要に応じて調整してね */
   line-height: 1.8;
   text-align: center;
   margin-top: 1rem;
@@ -60,7 +60,7 @@ section {
 .product-card p {
   word-break: break-word;
   overflow-wrap: break-word;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .price {
