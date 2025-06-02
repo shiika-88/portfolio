@@ -82,8 +82,9 @@ section {
 header img {
   width: 100%;
   height: auto;
-  max-height: 50rem;
+  max-height: 40rem;
   object-fit: cover;
+  object-position: center 60%;
 }
 
 h1{
