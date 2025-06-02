@@ -10,11 +10,11 @@ body {
 
 h1 {
   font-size: 4rem;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-top: 1em;        /* ← 新しく追加 */
   line-height: 1.8;       /* ← 行間をゆったりさせる */
   color: hsl(21, 24%, 37%);
@@ -60,7 +60,7 @@ section {
 .product-card p {
   word-break: break-word;
   overflow-wrap: break-word;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .price {
