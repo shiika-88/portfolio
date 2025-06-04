@@ -1,4 +1,4 @@
-/* 全体のフォントと背景 */
+
 body {
   font-family: 'Kiwi Maru', 'Noto Sans JP', sans-serif;
   background-color: #f1edeb;
@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-/* 見出し */
+
 h1 {
   font-size: 2rem;
   margin-bottom: 0.5em;
@@ -33,12 +33,12 @@ h3 {
   padding-bottom: 0.3em;
 }
 
-/* セクションの余白 */
+
 section {
   margin-bottom: 3em;
 }
 
-/* お客さんの声を少し目立たせる */
+
 .review {
   background-color: #fffdf8;
   border-left: 4px solid #c7a17a;
