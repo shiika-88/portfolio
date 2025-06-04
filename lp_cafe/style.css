@@ -15,8 +15,8 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  margin-top: 1em;        /* ← 新しく追加 */
-  line-height: 1.8;       /* ← 行間をゆったりさせる */
+  margin-top: 1em;        
+  line-height: 1.8;       
   color: hsl(21, 24%, 37%);
   border-left: 4px solid #c7a17a;
   padding-left: 12px;
@@ -31,16 +31,16 @@ h3 {
   padding-bottom: 0.5em;
 }
 
-/* headerセクションの説明文 */
+
 #concept p {
-  font-size: 1.2rem; /* ←必要に応じて調整してね */
+  font-size: 1.2rem; 
   line-height: 1.8;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
-/* 各セクション下の余白 */
+
 section {
   margin-bottom: 3em;
 }
